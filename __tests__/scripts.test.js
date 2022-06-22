@@ -15,7 +15,7 @@ describe('Player', () => {
   });
 
   test('should set round score to 0 if a player rolls 1', () => {
-    let newerPlayer = new Player(0,0,2);
+    let newerPlayer = new Player(0,0,1);
     expect(newerPlayer.AddRoundScore()).toEqual(0);
   });
 });
